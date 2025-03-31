@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  :root {
+    --radius: 0.5rem;
+    --violet: #E2BEFF;
+  }
+}
+
+body {
+  font-family: 'TT Commons', sans-serif;
+}
+
+@font-face {
+  font-family: 'TT Commons';
+  src: local("TT Commons"), url("/fonts/TTCommons-DebiBold.woff2 ") format(woff2);
+  font-display: swap;
+  font-weight: 600;
+  font-style: normal;
+}
+/*
+
